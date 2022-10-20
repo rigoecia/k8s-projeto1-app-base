@@ -11,11 +11,11 @@ $("#button-blue").on("click", function() {
         data: {nome: txt_nome, comentario: txt_comentario, email: txt_email},
         beforeSend: function() {
         
-            console.log("Tentando enviar os dados....");
+            console.log("Estamos Tentando enviar os Dados....");
 
         }
     }).done(function(e) {
-        alert("Dados Salvos");
+        alert("Os Dados Foram Salvos");
     })
 
 });
